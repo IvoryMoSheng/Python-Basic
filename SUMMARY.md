@@ -38,7 +38,7 @@ This is the summary of my book.
 	* [from..import语句](模块/from..import语句.md)
 	* [dir()函数](模块/dir函数.md)
 * [数据结构](数据结构/数据结构.md)
-	* [列表](数据结构/列表.md)
+	* [列表list](数据结构/列表list.md)
 	* [对象与类](数据结构/对象与类.md)
 	* [元组](数据结构/元组.md)
 	* [字典](数据结构/字典.md)
