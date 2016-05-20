@@ -1,3 +1,3 @@
-# Introduction
+# 简介
 
-这是Python的学习笔记
+关于Python的学习笔记
