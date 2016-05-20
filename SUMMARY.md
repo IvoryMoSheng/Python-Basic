@@ -21,7 +21,7 @@ This is the summary of my book.
 	* [while循环语句](第三章 控制流/while循环语句.md)
 	* [for循环语句](第三章 控制流/for循环语句.md)
 	* [break中断语句](第三章 控制流/break中断语句.md)
-	* [continue语句](第三章 控制流/continue跳过语句.md)
+	* [continue跳过语句](第三章 控制流/continue跳过语句.md)
 * [第四章 函数](第四章 函数/函数.md)
 	* [函数形参](第四章 函数/函数形参.md)
 	* [局部变量](第四章 函数/局部变量.md)

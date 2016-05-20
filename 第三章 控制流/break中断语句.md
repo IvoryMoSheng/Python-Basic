@@ -29,16 +29,16 @@ Tip:
 1.如果从for或while循环中终止 ，任何对应的循环else块将不执行。
 
 ```
-	输入
-	for i in range(5):
-		if i = 2:
-			break
-		print(i)
-	else:
-		print('Done')
-	输出
-	0
-	1
+输入
+for i in range(5):
+	if i = 2:
+		break
+	print(i)
+else:
+	print('Done')
+输出
+0
+1
 ```
 
 2.循环所迭代的序列是空的，else分支依然会被执行，因为循环仍然是正常完成的。
@@ -52,7 +52,7 @@ else:
 输出
 Done
 ```
-3.else语句在循环中常用来实现循环查找，例如在查找一个满足特定条件的项目(item)，同时需要进行附加处理（或者在未发现可接受的值时生成一个错误）
+3.else语句在循环中常用来实现循环查找，例如在查找一个满足特定条件的项目(item)，同时需要进行附加处理（或者在未发现可接受的值时生成一个错误）。
 ```
 for x in data:
 	if meets_condition(x):
@@ -61,6 +61,7 @@ else:
   # raise error or do additional processing
 ```
 如果没有else语句的话，需要设置一个标志，然后在后面对其检测，以此确定是否存在满足条件的值。
+
 ```
 condition_is_met = False
 for x in data:
@@ -68,3 +69,4 @@ for x in data:
 		condition_is_met = True
 if not condition_is_met:
 	# raise error or do additional processing
+```
